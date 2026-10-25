@@ -1,9 +1,10 @@
 function firstWord(s) {
-    const index = s.i
-		ndexOf(' ');
+    const index = s.indexOf(' ');
 
+	
     if (index === -1) {
         return s;
+		
     }
 
     return s.substring(0, index);
