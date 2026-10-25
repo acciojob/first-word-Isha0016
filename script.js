@@ -1,5 +1,12 @@
 function firstWord(s) {
-  // your code here
+    const index = s.i
+		ndexOf(' ');
+
+    if (index === -1) {
+        return s;
+    }
+
+    return s.substring(0, index);
 }
 
 // Do not change the code below
